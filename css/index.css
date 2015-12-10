@@ -53,6 +53,46 @@ div.content div.row-fluid>div>span{
 		width: 768px;
 		height: 1024px;
 		display: inline-block;
+
+	}
+
+	div.content div.row-fluid div{
+			border-right: 5px solid rgb(176, 62, 54);
+			display:inline-block;
+			position: relative;
+	}
+
+	div.content div.row-fluid div.col-md-2{
+			top:-10px;
+	}
+
+	div.content div.row-fluid div.col-md-4{
+			top:-5px;
+	}
+
+	div.content div.row-fluid div.col-md-4 span{
+		margin-top:14px;
+
+	}
+
+	div.content div.row-fluid div.email{
+		border-right: none;
+		display: inline;
+		position: absolute;
+		top:30px;
+		margin-left: 10px;
+	}
+
+	div.content div.row-fluid div.col-md-3{
+		width: 202px;
+	}
+
+	div.content div.row-fluid div.col-md-2{
+		width: 187px;
+	}
+
+	div.content div.row-fluid div.col-md-4{
+		width: 359px;
 	}
 }
 
