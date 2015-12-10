@@ -1,0 +1,48 @@
+div.content{
+	max-width: 1027px;
+	min-width: 1027px;
+	display:table;
+	margin: 0 auto;
+	float: none;
+	height:100%;
+
+
+}
+
+body, html{
+	height: 100%;
+	width:100%;
+}
+
+div.content div.row-fluid{
+	margin-top:40px;
+	height: 35px;
+	vertical-align: middle;
+}
+
+div.content div.row-fluid div{
+	border-right: 5px solid rgb(176, 62, 54);
+	height: 35px;
+	overflow-y:visible;
+}
+
+div.content div.row-fluid>div>span{
+	display: inline-block;
+	margin-top:7px; 
+	vertical-align: middle;
+}
+
+@media (min-width: 1027px){
+
+	div.content div.row-fluid div.col-md-3{
+		width: 231px;
+	}
+
+	div.content div.row-fluid div.col-md-2{
+		width: 178px;
+	}
+
+	div.content div.row-fluid div.col-md-4{
+		width: 354px;
+	}
+}
