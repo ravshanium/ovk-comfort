@@ -1,6 +1,4 @@
 div.content{
-	max-width: 1027px;
-	min-width: 1027px;
 	display:table;
 	margin: 0 auto;
 	float: none;
@@ -21,7 +19,7 @@ div.content div.row-fluid{
 }
 
 div.content div.row-fluid div{
-	border-right: 5px solid rgb(176, 62, 54);
+
 	height: 35px;
 	overflow-y:visible;
 }
@@ -32,7 +30,40 @@ div.content div.row-fluid>div>span{
 	vertical-align: middle;
 }
 
+@media (min-width: 320px){
+	div.content{
+		width: 320px;
+	}
+	
+	div.bgImage{
+		background-image: url('../images/bg320x480.jpg');
+		width: 320px;
+		height: 480px;
+		display: inline-block;
+	}
+}
+
+@media (min-width: 768px){
+	div.content{
+		width: 768px;
+	}
+
+	div.bgImage{
+		background-image: url('../images/bg768x1024.jpg');
+		width: 768px;
+		height: 1024px;
+		display: inline-block;
+	}
+}
+
 @media (min-width: 1027px){
+	div.content{
+		width: 1027px;
+	}
+
+	div.content div.row-fluid div{
+			border-right: 5px solid rgb(176, 62, 54);
+	}
 
 	div.content div.row-fluid div.col-md-3{
 		width: 231px;
@@ -44,5 +75,17 @@ div.content div.row-fluid>div>span{
 
 	div.content div.row-fluid div.col-md-4{
 		width: 354px;
+	}
+
+	div.bgImage{
+		background-image: url('../images/bg.jpg');
+		background-repeat: no-repeat;
+		width: 1026px;
+		height: 857px;
+		overflow: hidden;
+		padding: 0;
+		margin: 0;
+		vertical-align: middle;
+		text-align: center;
 	}
 }
