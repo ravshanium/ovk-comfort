@@ -7,13 +7,23 @@ div.content{
 
 }
 
+div.phone{
+	font-size: 10.57pt;
+}
+
+div.content div.row-fluid > div.phone > span{
+	margin-top: 6px;
+}
+
+
 body, html{
 	height: 100%;
 	width:100%;
+	font-size: 10pt;
 }
 
 div.content div.row-fluid{
-	margin-top:40px;
+	margin-top:21px;
 	height: 35px;
 	vertical-align: middle;
 }
@@ -79,7 +89,7 @@ div.content div.row-fluid>div>span{
 		border-right: none;
 		display: inline;
 		position: absolute;
-		top:30px;
+		top:13px;
 		margin-left: 10px;
 	}
 
